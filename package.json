@@ -1,9 +1,10 @@
 {
-  "name": "inbox",
+  "name": "raffle",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple raffle system based on Ethereum smart contracts. Built with Solidity.",
   "scripts": {
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "start": "ts-node ./src/deploy.ts"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
@@ -11,6 +12,13 @@
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.23.0",
-    "typescript": "^4.8.2"
+    "typescript": "^4.8.2",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "dotenv": "^16.0.1",
+    "ganache": "^7.4.1",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.2",
+    "solc": "^0.8.9",
+    "web3": "^1.7.5"
   }
 }
