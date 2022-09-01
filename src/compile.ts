@@ -3,8 +3,8 @@ import fs from 'fs';
 //@ts-ignore
 import * as solc from 'solc';
 
-const inboxPath = path.resolve(__dirname, 'contract', 'raffle.sol');
-const source = fs.readFileSync(inboxPath, 'utf8');
+const loterryPath = path.resolve(__dirname, 'contract', 'raffle.sol');
+const source = fs.readFileSync(loterryPath, 'utf8');
 
 const input = {
     language: 'Solidity',

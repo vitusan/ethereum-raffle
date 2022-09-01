@@ -107,6 +107,5 @@ dist
 yarn.lock
 package-lock.json
 
-
 # Remix's files
 artifacts/
